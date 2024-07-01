@@ -3,19 +3,21 @@
     padding: 0;
 }
 body{
-    font-size: 80%;
+    font-size: 90%;
     letter-spacing: 0.15em;
+    
 }
 #main{
-    margin: auto;
+    margin: 20px auto;
     min-width: 720px;
     max-width: 940px;
-    border: 4px double #000;
+    min-height: 550px;
+    border: 8px double #000;
     background-color: #ffffff;
 }
 #logo {
     width: 150px;
-    margin: 10px auto 15px auto;
+    margin: 10px 430px 15px auto;
 }
 ul{
     margin: 0px auto 0px auto;
@@ -37,3 +39,6 @@ p{
 a:hover{
 color: #cc333c;
 }
+a{
+    text-transform: uppercase
+};
